@@ -27,4 +27,44 @@ body {
         background-size: cover;
         background-repeat: no-repeat;
         min-height: 60vh;
+        background-color: #b5b399;
+}
+
+.itemAdding {
+    color: white;
+    list-style: none;
+    font-size: 20px;
+    background-color: #1d2c0b;
+    height: 50px;
+    width: 50%;
+    text-align: center;
+    border-bottom: 1px solid #d8d7c4;
+}
+
+.itemField {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.itemNew {
+    background-color: #bb5805;
+    text-decoration: line-through;
+    transition: all 2s ease;
+}
+
+@media all and (max-width: 800px) {
+    h1 {
+        font-size: 40px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    h1 {
+        font-size: 30px;
+text-align: center;
+    }
+    .itemAdding{
+        width: 80%;
+    }
 }
